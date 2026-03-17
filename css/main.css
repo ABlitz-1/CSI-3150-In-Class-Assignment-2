@@ -4,7 +4,23 @@
 }
 
 .row {
-  display: grid;
+  display: table;
+  width: 100%
+}
+
+.cat {
+  display: table-cell;
+  max-width: 300px;
+}
+
+.dog {
+  display: table-cell;
+  max-width: 300px;
+}
+
+.cow {
+  display: table-cell;
+  max-width: 300px;
 }
 
 .row button {
@@ -14,8 +30,8 @@
 }
 
 .row img {
-  width: 200px;
-  height: 75px;
+  width: 75px;
+  height: 200px;
 }
 
 .cat button {
