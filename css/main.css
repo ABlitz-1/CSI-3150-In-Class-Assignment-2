@@ -23,7 +23,14 @@
   max-width: 300px;
 }
 
-.row button {
+.buttons {
+  display: table;
+  width: 100%;
+}
+
+.buttons button {
+  display: table-cell;
+  max-width: 300px;
   border: 2px solid orange;
   font-family: arial;
   font-size: 16px;
