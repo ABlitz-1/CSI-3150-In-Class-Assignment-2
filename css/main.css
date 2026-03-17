@@ -5,7 +5,8 @@
 
 .row {
   display: table;
-  width: 100%
+  width: 100%;
+  margin-bottom: 10px;
 }
 
 .cat {
@@ -31,6 +32,7 @@
 .buttons button {
   display: table-cell;
   max-width: 300px;
+  border-spacing: 10px;
   border: 2px solid orange;
   font-family: arial;
   font-size: 16px;
